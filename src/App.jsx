@@ -100,9 +100,11 @@ export default function App() {
             <button onClick={() => handleColorChange(randomGradient())}>
               RANDOM GRADIENT
             </button>
+            <h2>Custom Color</h2>
             <input
               type="color"
               onChange={(e) => handleColorChange(e.target.value)}
+              
             />
           </div>
           <div className="controls-section">
